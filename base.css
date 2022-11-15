@@ -1,10 +1,27 @@
-html,
+h1 {
+    background: blue;
+    color: white;
+    width: initial;
+    height: auto;
+    text-align: center;
+}
+
+fieldset {
+    width: 300px;
+    height: auto;
+}
+
+h2 {
+    color: white;
+}
+
 body {
     margin: 0;
 }
 
 table tr:nth-child(even) {
     background-color: rgb(160, 191, 191);
+    width: 200px;
 }
 
 table tr :hover td {
@@ -15,6 +32,15 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+}
+
+#maps {
+    margin-left: 450px;
+    margin-top: -200px;
+}
+
+#logo {
+    background-position: right;
 }
 
 .wrapper {
@@ -28,12 +54,14 @@ body {
     display: flex;
     flex-flow: column;
     width: 85%;
+    margin-left: 20px;
 }
 
 .menu {
     width: 30%;
-    background-color: aqua;
+    background-color: linear-gradient(aqua, #00ffff);
     padding: 10px 20px 0px;
+    background-image: url();
 }
 
 .header {
@@ -48,7 +76,7 @@ body {
 }
 
 .maps {
-    background-color: rgb(159, 45, 45);
+    background-color: rgb(228, 242, 242);
     min-height: 300px;
     padding: 20px;
 }
